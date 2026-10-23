@@ -2,6 +2,10 @@
 
 @theme {
 
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-mobile: 28.75em; /* 460px */
+
   /* Colours */
   --color-*: initial;
     /* Neutral */
@@ -23,9 +27,12 @@
 
 @layer components {
   .text-preset-1 {
-    font-size: 60px;
+    font-size: 44px;
     line-height: 106%;
     letter-spacing: -2px;
+    @media (min-width: 28.75em ) {
+      font-size: 60px;
+    }
   }
   .text-preset-2 {
     font-size: 44px;
