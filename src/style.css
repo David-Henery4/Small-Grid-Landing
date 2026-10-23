@@ -5,6 +5,10 @@
   /* Breakpoints */
   --breakpoint-*: initial;
   --breakpoint-mobile: 28.75em; /* 460px */
+  --breakpoint-mobile-lg: 33.75em; /* 540px */
+  --breakpoint-tablet-sm: 40em; /* 640px */
+  --breakpoint-tablet: 48em; /* 768px */
+  --breakpoint-laptop: 66.75em; /* 1068px */
 
   /* Colours */
   --color-*: initial;

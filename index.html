@@ -8,7 +8,7 @@
     <title>grid-landing</title>
   </head>
   <body class="bg-blue-700">
-    <nav class="flex justify-between items-center p-6">
+    <nav class="flex justify-between items-center p-6 mobile-lg:px-12">
       <div class="flex justify-center items-center gap-2">
         <span class="w-3 h-3 bg-white rounded-full inline-block"></span>
         <p class="text-preset-6 text-white">Bridge Collective</p>
@@ -18,8 +18,8 @@
       </div>
     </nav>
 
-    <main class="border-t border-b border-blue-400">
-      <header class="px-6 py-14 mobile:py-25">
+    <main class="border-t border-b border-blue-400 laptop:flex laptop:justify-center laptop:items-center">
+      <header class="px-6 py-14 mobile:py-25 mobile-lg:px-12 tablet:py-35.5 laptop:p-12 laptop:flex-2">
         <div class="w-full max-w-100">
           <h1 class="text-preset-1 text-white">A classroom for every child.</h1>
           <p class="text-blue-200 text-preset-5 mt-6">
@@ -29,9 +29,9 @@
         </div>
       </header>
 
-      <section>
+      <section class="tablet-sm:grid tablet-sm:grid-cols-2 laptop:flex-3 laptop:border-l laptop:border-blue-400">
         <div
-          class="p-6 h-82 grid content-between border-t border-blue-400 text-white"
+          class="p-6 h-82 grid content-between border-t border-blue-400 text-white tablet-sm:border-r laptop:border-t-0"
         >
           <div class="flex justify-between items-center" >
             <img src="/src/assets/images/icon-sparkle.svg" alt="" />
@@ -45,7 +45,7 @@
         </div>
 
         <div
-          class="p-6 h-82 grid content-between border-t border-blue-400 text-white"
+          class="p-6 h-82 grid content-between border-t border-blue-400 text-white laptop:border-t-0"
         >
           <div class="flex justify-between items-center">
             <img src="/src/assets/images/icon-plus.svg" alt="" />
@@ -59,7 +59,7 @@
         </div>
 
         <div
-          class="p-6 h-82 grid content-between border-t border-blue-400 text-white"
+          class="p-6 h-82 grid content-between border-t border-blue-400 text-white tablet-sm:border-r"
         >
           <div class="flex justify-between items-center" >
             <img src="/src/assets/images/icon-arrow-right.svg" alt="" />
@@ -90,7 +90,7 @@
       </section>
     </main>
 
-    <footer class="p-6 text-preset-6 text-white mobile:flex justify-between items-center">
+    <footer class="p-6 text-preset-6 text-white mobile:flex justify-between items-center mobile-lg:px-12">
       <p>© 2026 Bridge Collective</p>
       <p>Registered charity 12345678</p>
     </footer>
