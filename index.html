@@ -15,12 +15,14 @@
         <span class="w-3 h-3 bg-white rounded-full inline-block"></span>
         <p class="text-preset-6 text-white">Bridge Collective</p>
       </div>
-      <div>
-        <img src="./src/assets/images/icon-menu.svg" alt="Burger Menu Icon" />
-      </div>
 
-      <aside class="absolute z-50 w-full max-w-99 top-full right-0 border-t border-blue-400 bg-blue-700 text-white text-preset-4">
-        <menu class="px-6 py-11 flex flex-col justify-center items-center">
+      <!-- Burger -->
+      <button id="burger-icon" class="hover:cursor-pointer">
+        <img src="./src/assets/images/icon-menu.svg" alt="Burger Menu Icon" />
+      </button>
+
+      <aside id="sidebar" class="hidden absolute z-50 w-full max-w-99 top-full right-0 border-t border-blue-400 bg-blue-700 text-white text-preset-4 mobile-sm:h-svh">
+        <menu class="px-6 py-11 flex flex-col justify-center items-center mobile-sm:text-right mobile-sm:items-end">
           <li>
             <a href="#">About</a>
           </li>
@@ -40,7 +42,7 @@
       </aside>
 
       <!-- Overlay -->
-      <div class="absolute top-full right-0 w-full h-svh bg-black/35"></div>
+      <div id="overlay" class="hidden absolute top-full right-0 w-full h-svh bg-black/35"></div>
 
     </nav>
 

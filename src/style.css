@@ -4,6 +4,7 @@
 
   /* Breakpoints */
   --breakpoint-*: initial;
+  --breakpoint-mobile-sm: 25.5em; /* 408px */
   --breakpoint-mobile: 28.75em; /* 460px */
   --breakpoint-mobile-lg: 33.75em; /* 540px */
   --breakpoint-tablet-sm: 40em; /* 640px */
